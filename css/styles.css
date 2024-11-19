@@ -187,3 +187,211 @@ body {
   right: 240px;
   bottom: 30px;
 }
+.section{
+display: flex;
+flex-direction: column;
+text-align: center;
+padding: 120px 32px;
+gap: 48px;
+}
+.section-item1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon-section1{
+  width: 56px;
+}
+.title-section1{
+  font-family: var(--space-mono);
+  font-size: 20px;
+  color: var(--blue);  
+  text-align: center;
+  letter-spacing: -1.43px;
+  line-height: 32px;
+}
+.text-section1{
+  font-family: var(--lexend-deca);
+  font-size: 15px;
+  color: var(--dark-grey);  
+  text-align: center;
+  line-height: 25px;
+}
+.section2{
+display: flex;
+flex-direction: column;
+text-align: center;
+padding: 32px;
+gap: 120px;
+}
+.section-item2{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.arrow-1{
+  background-image: url(../assets/images/patterns/left-downward-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 32px 150px;
+}
+.arrow-2{
+  background-image: url(../assets/images/patterns/right-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: -150px 0;
+}
+.arrow-2{
+  background-image: url(../assets/images/patterns/left-downward-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 150px 0;
+}
+.icon-section2{
+  position: relative;
+  width: 311px;
+  border-radius: 100%;
+  z-index: -1;
+}
+.title-section2{
+  font-family: var( --space-mono);
+  font-size: 32px;
+  color: var(--blue);  
+  text-align: center;
+  letter-spacing: -1.43px;
+  line-height: 32px;
+}
+.text-section2{
+  font-family: var( --lexend-deca);
+  font-size: 15px;
+  color: var(--dark-grey);  
+  text-align: center;
+  line-height: 25px;
+}
+.footer {
+  color: var(--snow);
+  text-align: center;
+  background-color: var(--darkest-grey);
+}
+.apps {
+  position: relative;
+  padding: 88px 32px;
+  background-color: var(--blue);
+}
+.apps-logos {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.apple-logo {
+  width: 113px;
+}
+
+.google-logo {
+  width: 130px;
+}
+
+.logo-white {
+  filter: brightness(100);
+  margin-bottom: 41px;
+}
+.footer-social {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 134px;
+  gap: 42px;
+}
+
+.menu-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 85px;
+  color: var(--dark-grey);
+}
+.social-links {
+  display: flex;
+  gap: 24px;
+}
+.logo-white {
+  margin-bottom: 0;
+}
+
+.menu-footer {
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 0;
+}
+.banner-about{
+  background-image: url(../assets/images/images/about-hero-mobile.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 72px 32px;
+}
+.section-about1{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 120px;
+}
+.titleBanner-about{
+  font-family: var( --space-mono);
+  font-size: 40px;
+  color:#ffff ; 
+}
+.arrow-about1{
+  background-image: url(../assets/images/patterns/left-upward-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 32px 150px;
+}
+.arrow-about2{
+  background-image: url(../assets/images/patterns/right-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: -150px 0;
+}
+.arrow-2{
+  background-image: url(../assets/images/patterns/left-downward-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 150px 0;
+}
+.section2-about{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.imageSection2-about{
+  position: relative;
+  width: 240px;
+  border-radius: 100%;
+}
+.section2-about::after{
+  position: '';
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  background-color: #000000;
+  border-radius: 100%;
+  z-index: 1;
+}
+.title-section3{
+  font-family: var( --space-mono);
+  font-size: 24px;
+  color: var(--blue);  
+  line-height: 28px;
+}
+
+.text-section3{
+  font-family: var( --lexend-deca);
+  font-size: 15px;
+  color: var(--dark-grey);  
+  text-align: center;
+  line-height: 25px;
+
+}
+  
