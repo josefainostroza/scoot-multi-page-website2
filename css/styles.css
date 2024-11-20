@@ -369,21 +369,14 @@ align-items: center;
   position: relative;
   width: 240px;
   border-radius: 100%;
-}
-.section2-about::after{
-  position: '';
-  position: absolute;
-  width: 96px;
-  height: 96px;
-  background-color: #000000;
-  border-radius: 100%;
-  z-index: 1;
+  top: 64px;
 }
 .title-section3{
   font-family: var( --space-mono);
   font-size: 24px;
   color: var(--blue);  
   line-height: 28px;
+  margin-top: 64px;
 }
 
 .text-section3{
@@ -392,6 +385,21 @@ align-items: center;
   color: var(--dark-grey);  
   text-align: center;
   line-height: 25px;
-
-}
   
+}
+
+.number{
+  position: absolute;
+  font-family: var( --space-mono);
+  font-size: 24px;
+  color: var(--blue);
+  width: 96px;
+  height: 96px;
+  background-color: var(--yellow);
+  border-radius: 100%;
+  text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 120px;
+}
